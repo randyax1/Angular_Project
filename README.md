@@ -1,4 +1,8 @@
-# ListadoPersonasV2
+# Package Records App
+Made with Angular and Firebase as the database
+
+To see:
+https://listado-personas-28de0.web.app
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
