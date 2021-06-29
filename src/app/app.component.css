@@ -1,0 +1,12 @@
+.box-login{
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  color:red;
+  text-decoration: none;
+  margin:20px;  
+}
+
+.centrado {
+    text-align: center;
+}

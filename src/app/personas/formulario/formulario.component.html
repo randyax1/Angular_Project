@@ -1,0 +1,26 @@
+<div class="box-down mx-auto">
+  
+  <form class="item" #f="ngForm" (ngSubmit)="f.form.valid && onGuardarPersona()">
+
+    <input type="text" name="nombre" placeholder="Code" [(ngModel)]="nombreInput" required autocomplete="off" autocapitalize="on"/>
+
+    <select name="prioridad" class="form-select" aria-label="Default select example" [(ngModel)]="prioridadInput">
+      <option value="LOW">LOW</option>
+      <option value="MEDIUM">MEDIUM</option>
+      <option value="HIGH">HIGH</option>
+    </select>
+
+    <select name="status" class="form-select" aria-label="Default select example" [(ngModel)]="statusInput">
+      <option value="ARRIVE">ARRIVE</option>
+      <option value="TRANSIT">TRANSIT</option>
+      <option value="SEND">SEND</option>
+    </select>
+
+    <button type="submit" class="btn-create" >+</button>
+    
+    <button *ngIf="index != null" type="submit" style="cursor: pointer" class="btn-delete" (click)="onEliminarPersona()">-</button>
+
+  </form>
+</div>
+
+<!--Table-->

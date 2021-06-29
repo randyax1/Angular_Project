@@ -1,0 +1,41 @@
+<div class="row text-center mb-3">
+  <div class="col-3">
+    
+    <button 
+    type="button" 
+    disabled 
+    class="btn btn-outline-secondary waves-effect">
+    {{persona.nombre}}
+    </button>
+    
+  </div>
+
+  <div class="col-3">
+    <button 
+    type="button" 
+    disabled 
+    class="btn btn-outline-secondary waves-effect">
+    {{persona.prioridad}}
+  </button>
+  
+  </div>
+  
+  <div class="col-3">
+    <button 
+    type="button" 
+    disabled 
+    class="btn btn-outline-secondary waves-effect">
+    {{persona.status}}
+  </button>
+  
+</div>
+  
+<div class="col-3">
+    <a [routerLink]="['/personas',indice]"
+      [queryParams]="{modoEdicion:'1'}">
+        <td ><button class="btn-edit">Edit</button></td>
+        </a>
+</div>
+</div>
+
+<!--Recorrido de los registros-->

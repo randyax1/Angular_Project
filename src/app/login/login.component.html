@@ -1,0 +1,15 @@
+<div class="box-login">
+
+  <p class="title-login p-3">Iniciar Sesión</p>
+  <p class="subtitle-login ">Ingrese sus credenciales para acceder a su cuenta.</p>
+  <form class="form-login" #f="ngForm" (ngSubmit)="f.form.valid && onLogin(f)">
+    <div class="col-10 mb-3">
+        <input class="form-control input-form" type="email" name="email" placeholder="Introduzca su Correo Electronico" ngModel required/>
+    </div>
+    
+    <div class="col-10">
+        <input class="form-control mb-4 input-form" type="password" name="password" placeholder="Introduzca su Contraseña" ngModel required/>
+    </div>
+    <button class="btn btn-primary col-10" type="submit" style="cursor: pointer">Acceder</button>
+  </form>
+</div>  

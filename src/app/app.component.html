@@ -1,0 +1,15 @@
+<!--Navbar-->
+<app-status-app></app-status-app>
+
+<div *ngIf="!isAutenticado()" class="box-login centrado" >
+  <a routerLink="/login"></a>
+</div>
+<div *ngIf="isAutenticado()" class="box-login centrado" >    
+    <a style="cursor:pointer" (click)="salir()">
+      <img src="../assets/arrow.png" 
+           alt="imagen para cerrar sesion"
+           height="75" width="auto">
+    </a> 
+</div> 
+  
+<router-outlet></router-outlet>

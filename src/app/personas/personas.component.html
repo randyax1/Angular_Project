@@ -1,0 +1,38 @@
+<div style="text-align: center">
+  <button class="btn-add" (click)="irAgregar()">+</button>
+</div>
+
+<div class="box">
+
+  <div class="container ">
+
+    <p class="title mt-2">Package Registration</p>
+
+    <div class="row text-center ">
+      <div class="col-3 mb-2">
+        <h4>Package Code</h4>
+      </div>
+
+      <div class="col-3">
+        <h4>Package Priority</h4>
+      </div>
+
+      <div class="col-3">
+        <h4>Package Status</h4>
+      </div>
+
+      <div class="col-3">
+        <h4>&nbsp;&nbsp;&nbsp;Actions</h4>
+      </div>
+
+    </div>
+  </div>
+
+  <app-persona *ngFor="let personaElemento of personas; let i = index" [persona]="personaElemento" [indice]="i">
+  </app-persona>
+
+</div>
+
+<router-outlet></router-outlet>
+
+<!--Textos de filas y titulo-->

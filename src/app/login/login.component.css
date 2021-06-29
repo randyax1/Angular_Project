@@ -1,0 +1,34 @@
+.box-login {
+    width: 50vw;
+    height:50vh;
+    padding-bottom:20px;
+    margin: 140px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px -5px rgba(0, 0, 0, 0.3);
+  }
+
+  .title-login {
+    text-align: center;
+    font-size: calc(1.25em + 1vw);
+    font-weight: bold;
+
+  }
+
+  .subtitle-login {
+    text-align: center;
+    font-size: calc(0.7em + 0.7vw);
+    color:gray;
+    font-weight: bold;
+    margin-top: -20px;
+  }
+
+  .form-login {
+    text-align: -webkit-center;
+
+  }
+
+  .input-form {
+    text-align: center;
+  }
+  
