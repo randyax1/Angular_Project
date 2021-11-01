@@ -4,6 +4,9 @@ Made with Angular and Firebase as the database
 To see:
 https://listado-personas-28de0.web.app
 
+User: randallaortiz@outlook.com
+Pass: Ues20040
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
 ## Development server
